@@ -1,4 +1,4 @@
-# NodeBB Blog Comments
+# NodeBB Blog Comments Modified
 
 Lets NodeBB act as a comments engine/widget for your blog. Currently supports both [Ghost](https://ghost.org/) and [WordPress](http://wordpress.org/). There is a separate repo for [PencilBlue](https://github.com/theunknownartisthour/nodebb-comments-pencilblue) support. If you'd like to see support for other CMS/blog systems, please submit an issue on our tracker.
 

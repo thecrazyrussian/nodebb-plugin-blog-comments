@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-blog-comments",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "NodeBB Blog Comments (Ghost / WP Commenting Engine)",
   "main": "library.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-blog-comments"
+    "url": "https://github.com/thecrazyrussian/nodebb-plugin-blog-comments"
   },
   "keywords": [
     "nodebb",
@@ -20,8 +20,8 @@
     "comments"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "thecrazyrussian",
+    "email": "mikhail@thecrazyrussian.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
