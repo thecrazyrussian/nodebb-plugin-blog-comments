@@ -7,9 +7,11 @@ $('document').ready(function() {
 			window.close();
 		} */
 	}
-	if (window.opener && (window.location.hash === "#_=_" || window.location.hash === "")) {
+	if (window.opener) {
 		 window.onbeforeunload = function () {
-                        window.close();
+                        //window.close();
+			console.log('close');
+			console.log(window.location.hash);
                 }
 	}
 });
