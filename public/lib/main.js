@@ -4,7 +4,7 @@ $('document').ready(function() {
 		$('body').css('paddingTop', '25px');
 
 		window.onbeforeunload = function () {
-			window.close();
+		//	window.close();
 		}
 	}
 });
