@@ -31,7 +31,7 @@
 
 	function authenticate(type) {
 		savedText = contentDiv.value;
-		modal = window.open(nodeBBURL + "/" + type + "/#blog/authenticate","_blank","toolbar=no, scrollbars=no, resizable=no, width=600, height=675");
+		modal = window.open(nodeBBURL + "/" + type + "/#blog/authenticate","_blank","toolbar=no, scrollbars=yes, resizable=no, width=600, height=675");
 		var timer = setInterval(function() {
 			if(modal.closed) {  
 				clearInterval(timer);
