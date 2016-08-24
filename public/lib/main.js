@@ -3,8 +3,13 @@ $('document').ready(function() {
 		$('#header-menu, .forum-header').hide();
 		$('body').css('paddingTop', '25px');
 
-		window.onbeforeunload = function () {
-		//	window.close();
-		}
+	/*	window.onbeforeunload = function () {
+			window.close();
+		} */
+	}
+	if (window.opener && (window.location.hash === "#_=_" || window.location.hash === "")) {
+		 window.onbeforeunload = function () {
+                        window.close();
+                }
 	}
 });
