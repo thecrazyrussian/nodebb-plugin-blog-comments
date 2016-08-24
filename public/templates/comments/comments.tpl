@@ -73,7 +73,6 @@
 		<!-- ENDIF isLoggedIn -->
 	<!-- ENDIF atBottom -->
 
-<%/* <small class="nodebb-copyright"><a href="{relative_path}/topic/{tid}">View original thread</a></small> */%>
 	<button class="btn btn-primary" <!-- IF !posts.length -->style="display: none"<!-- ENDIF !posts.length --> id="nodebb-load-more">Load more comments...</button>
 <!-- ELSE -->
 	Commenting has been disabled.
